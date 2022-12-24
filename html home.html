@@ -2,6 +2,7 @@
 <html>
     <head>
     <title>html page title</title>
+    <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <address>
@@ -11,7 +12,16 @@
             Box 564,Addis Ababa <br>
             Ethiopia
             </address>
-            
+            <!--using bookmarks-->
+            <h2>Image Maps</h2>
+            <p>Click on the computer, the phone, or the cup of coffee to go to a new page and see more:</p>
+            <img src="image-map/image-map.PNG" alt="image-map" usemap="#mapping">
+            <map name="mapping">
+                <area shape="rec" coords="30,18,275,325" href="image-map/Computer.PNG" alt="computer">
+                <area shape="rec" coords="284,138,342,227" href="image-map/Phone.PNG" alt="phone">
+                <area shape="rec" coords="301,236,381,316" href="image-map/Cupofcoffee.PNG" alt="Cupofcoffee">
+            </map>
+            <a href="#bdo" id="bookmark">go to bdo down</a>
         <h1 title='This is "Heading"'>heading is in double qoat</h1>
         <p title="This is 'Pharagraph'" >this is Pharagraph in single qoats</p>
         <h1 style="font-size: 50px;">you can change the size of heading by using the style attributes</h1>
@@ -24,8 +34,8 @@
             
             Oh, bring back my Bonnie to me.</p>
             <h3>ohhh! the poem is dlsplayed in a single line</h3>
-            <h4><em><b>lets try using pre tag now great!</b></em></h4>
-            <!--i used Rgb and rgba color-->
+            <a href="html home.html" target="_parent" title="poem"><h4><em><b>lets try using pre tag now great!</b></em></h4></a>
+            <!--i used Rgb and rgba color  for inline css-->
             <pre style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;background-color:rgba(172, 67, 67, 0.1);">
                 My Bonnie lies over the ocean.
 
@@ -42,9 +52,9 @@
                  At every level, we collaborate with people around the world to develop and deliver innovative solutions that protect communities, wildlife, and the places in which they live.
             </blockquote>
             <!--maikng abbrivation by title -->
-            <abbr title="World health organzation">WHO</abbr>!
+            <abbr title="World health organzation">WHO</abbr>
             <!--Making bidirectional override-->
-            <P><bdo dir="rtl"> Making abbrivation help the browser to give usefull information,</bdo>
+            <a href="#bookmark">go to top<P id="bdo"><bdo dir="rtl"> Making abbrivation help the browser to give usefull information,</bdo></a>
                 translation systems and search-engines.</P>
            
     </body>
