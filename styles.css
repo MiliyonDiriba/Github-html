@@ -1,6 +1,29 @@
 body{
-    background-color: rgb(110, 85, 47);
+    background-color: rgba(142, 139, 180, 0.329);
 }
 h1{
     font-weight: bold;
+}
+address {
+border: 2px solid tomato;
+color: whitesmoke;
+text-align: center;
+background-color: rgba(6, 6, 236,0.2);
+}
+pre {
+background-color: rgb(194, 248, 0);
+color: rgb(0, 0, 0);
+text-align: center;
+border: 3px solid;
+border-radius: 10%;
+padding: 10%;
+}
+h3{
+border: 2px solid;
+margin: 2%;
+text-align: center;
+}
+h4 {
+
+    border: 2px solid;
 }
