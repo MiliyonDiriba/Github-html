@@ -56,6 +56,78 @@
             <!--Making bidirectional override-->
             <a href="#bookmark">go to top<P id="bdo"><bdo dir="rtl"> Making abbrivation help the browser to give usefull information,</bdo></a>
                 translation systems and search-engines.</P>
+                <form action ="Feedback.html" method ="post">
+			 <fieldset>
+				 <legend>this is for trial of size and multiple</legend>
+				 <p>First Name:
+				 <input type ="text" name ="Fname"/>
+				 </p>
+				 <p>Last Name:
+				 <input type ="text" name ="Lname"/>
+				 </p>
+				 <p>Sex: male
+				 <input type ="radio" name ="Gender" value ="Male" checked />  female
+				 <input type ="radio" name ="Gender" value ="Female" />  not interested
+				 <input type ="radio" name ="Gender" value =""  />
+				 </p>
+				 
+					 <label>
+							<input list="list of subjects" name ="list text"/>
+							<datalist id ="list of subjects">
+							<option value ="mathematics">mathematics</option>
+							<option value ="chemistry">chemistry</option>
+							<option value ="Civics">Civics</option>
+							<option value ="Economics">Economics</option>
+							<option value ="History">History</option>
+							<option value ="aptitude">aptitude</option>
+							<option value ="Geography">Geography</option>
+					 </label>
+					 <label>
+							<input type ="submit" value ="SUBMIT"/>
+					 </label>
+					 <label>
+							<input type ="reset" value ="clear">
+					 </label>
+							<label><p>for all history selected</p>
+							  <select name ="option">
+									<option value ="mathematics">mathematics</option>
+									<option value ="chemistry">chemistry</option>
+									<option value ="Civics">Civics</option>
+									<option value ="Economics">Economics</option>
+									<option value ="History" selected>History</option>
+									<option value ="aptitude">aptitude</option>
+									<option value ="Geography">Geography</option>
+							  </select>
+							</label>
+							
+							<label><p>for size</p>
+							  <select name ="option" size ="3"/>
+									<option value ="mathematics">mathematics</option>
+									<option value ="chemistry">chemistry</option>
+									<option value ="Civics">Civics</option>
+									<option value ="Economics">Economics</option>
+									<option value ="History" selected>History</option>
+									<option value ="aptitude">aptitude</option>
+									<option value ="Geography">Geography</option>
+							  </select>
+							</label>	
+							<label><p>for multiple</p>
+							  <select name ="option" size ="4" multiple />
+									<option value ="mathematics">mathematics</option>
+									<option value ="chemistry">chemistry</option>
+									<option value ="Civics">Civics</option>
+									<option value ="Economics">Economics</option>
+									<option value ="History" selected>History</option>
+									<option value ="aptitude">aptitude</option>
+									<option value ="Geography">Geography</option>
+							  </select>
+							</label><br>
+								<label>
+								<textarea name ="for comment" rows ="10" cols ="50">comment...</textarea>
+								<button type ="button" onclick ="alert('well thanks for visiting')" >comment</button>
+								</label>
+			 </fieldset>
+		  </form>
            
     </body>
 </html>
