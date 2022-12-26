@@ -31,10 +31,35 @@ h4 {
 
     border: 2px solid;
 }
-table {
-background-image:url('images/pic-2.jpg');
+table,th,td {
+border: 1px  solid;
 color: black;
-border-radius: 2px;
-
-
 }
+
+th,td {
+background-color: darkgreen;
+text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111111;
+  }
