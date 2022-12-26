@@ -32,7 +32,9 @@ h4 {
     border: 2px solid;
 }
 table {
+background-image:url('images/pic-2.jpg');
 color: black;
+border-radius: 2px;
 
 
 }
