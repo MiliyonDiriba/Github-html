@@ -1,5 +1,9 @@
 body{
-    background-color: rgba(142, 139, 180, 0.329);
+    background-image: url('images/background-image.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+
 }
 h1{
     font-weight: bold;
