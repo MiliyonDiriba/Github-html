@@ -63,3 +63,12 @@ ul {
   li a:hover {
     background-color: #111111;
   }
+  .poem {
+ padding: 25%;
+ color: brown;
+
+  }
+  .p{
+    font-size: large;
+    font-style: italic;
+  }
