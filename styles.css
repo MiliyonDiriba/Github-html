@@ -72,3 +72,6 @@ ul {
     font-size: large;
     font-style: italic;
   }
+  .pdf {
+    border: none;
+  }
