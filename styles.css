@@ -1,5 +1,9 @@
 body{
-    background-color: rgba(142, 139, 180, 0.329);
+    background-image: url('images/background-image.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+
 }
 h1 {
     font-weight: bold;
@@ -27,8 +31,55 @@ h4 {
 
     border: 2px solid;
 }
+
+table,th,td {
+border: 1px  solid;
+color: black;
+}
+
+th,td {
+background-color: darkgreen;
+text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111111;
+  }
+  .poem {
+ padding: 25%;
+ color: brown;
+
+  }
+  .p{
+    font-size: large;
+    font-style: italic;
+  }
+  .pdf {
+    border: none;
+  }
+
 form {
 background-color: rgba(76, 0, 130, 0.308);
 
 
 }
+
